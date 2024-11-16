@@ -21,12 +21,19 @@ Import the package in your Flutter file and call `getHolidays` method:
 import 'package:holiday_id/holiday_id.dart';
 
 void main() {
-    var holidayIn2025 = HolidayId().getHolidays(
+    var holidaysIn2025 = HolidayId().getHolidays(
         filterType: HolidayType.holiday,
         filterYear: 2025,
     );
 }
 ```
+
+## Holiday Data
+
+All data are taken directly from Indonesia government's (Kementerian Koordinator Bidang Pembangunan Manusia Dan Kebudayaan Republik Indonesia) official letters. The data includes:
+
+* Year 2025 (letter signed on 14 October 2024)
+* Year 2024 (letter signed on 26 February 2024)
 
 ## Issues
 
