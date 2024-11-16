@@ -3,7 +3,7 @@ import 'package:holiday_id/holiday_id.dart';
 import 'package:intl/intl.dart';
 
 void main() {
-  group('SkbData 2025', () {
+  group('SkbData 2025-1', () {
     test('should be correct', () {
       SkbModel skbData2025 = skbData2025_1;
       List<HolidayModel> holidays = skbData2025.holidays;

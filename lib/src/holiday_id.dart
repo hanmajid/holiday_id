@@ -1,15 +1,14 @@
 import 'package:holiday_id/holiday_id.dart';
 
 class HolidayId {
-  bool isHoliday(DateTime date) {
-    return true;
-  }
-
-  static List<HolidayModel> getHolidays({
+  List<HolidayModel> getHolidays({
     int? filterYear,
     HolidayType? filterType,
   }) {
-    var result = holidayIdData;
+    List<HolidayModel> result = [];
+    result = holidayIdData
+        .fold([], (prev, yearData) => prev + yearData.skbs.last.holidays);
+
     if (filterYear != null) {
       result =
           result.where((holiday) => holiday.date.year == filterYear).toList();

@@ -8,7 +8,7 @@ class SkbModel {
   final List<HolidayModel> holidays;
 
   const SkbModel({
-    required this.id, 
+    required this.id,
     required this.title,
     required this.url,
     required this.signedAt,
