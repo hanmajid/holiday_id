@@ -1,0 +1,39 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    always_declare_return_types: true
+    always_put_required_named_parameters_first: true
+    always_use_package_imports: true
+    avoid_bool_literals_in_conditional_expressions: true
+    annotate_redeclares: true
+    avoid_print: true
+    collection_methods_unrelated_type: true
+    combinators_ordering: true
+    dangling_library_doc_comments: true
+    directives_ordering: true
+    implicit_call_tearoffs: true
+    invalid_case_patterns: true
+    library_annotations: true
+    lines_longer_than_80_chars: true
+    matching_super_parameters: true
+    no_literal_bool_comparisons: true
+    no_self_assignments: true
+    no_wildcard_variable_uses: true
+    prefer_single_quotes: true
+    require_trailing_commas: true
+    sort_child_properties_last: true
+    sort_pub_dependencies: true
+    sort_unnamed_constructors_first: true
+    type_literal_in_constant_pattern: true
+    unnecessary_breaks: true
+    unnecessary_library_directive: true
+    unnecessary_null_aware_operator_on_extension_on_nullable: true
+    unnecessary_to_list_in_spreads: true
+    unreachable_from_main: true
+    use_string_in_part_of_directives: true
+
+analyzer:
+  exclude: [build/**, lib/**.freezed.dart, lib/**.g.dart, lib/**.config.dart]
+  errors:
+    invalid_annotation_target: ignore

@@ -1,0 +1,4 @@
+enum HolidayType {
+  holiday,
+  collectiveLeave;
+}
