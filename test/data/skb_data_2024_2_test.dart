@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 
 void main() {
   group('SkbData 2024-2', () {
-    test('should be correct', () {
+    test('should be correct (check weekday)', () {
       SkbModel skbData2024 = skbData2024_2;
       List<HolidayModel> holidays = skbData2024.holidays;
       List<HolidayModel> holidaysOnly = skbData2024.holidays
@@ -47,6 +47,16 @@ void main() {
       expect(f.format(collectiveLeavesOnly[7].date), 'Friday');
       expect(f.format(collectiveLeavesOnly[8].date), 'Tuesday');
       expect(f.format(collectiveLeavesOnly[9].date), 'Thursday');
+    });
+    test('should have ascending ordered', () {
+      SkbModel skbData2024 = skbData2024_2;
+      List<HolidayModel> holidays = skbData2024.holidays;
+
+      for (var i = 1; i < holidays.length; i++) {
+        var prevHoliday = holidays[i - 1];
+        var holiday = holidays[i];
+        expect(prevHoliday.date.isBefore(holiday.date), true);
+      }
     });
   });
 }
