@@ -1,5 +1,6 @@
 import 'package:holiday_id/holiday_id.dart';
 
+/// This class contains the information of a holiday.
 class HolidayModel {
   final String name;
   final DateTime date;
@@ -10,13 +11,4 @@ class HolidayModel {
     required this.date,
     required this.type,
   });
-
-  @override
-  String toString() {
-    return {
-      'name': name,
-      'date': date,
-      'type': type,
-    }.toString();
-  }
 }

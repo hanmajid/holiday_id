@@ -1,5 +1,7 @@
 import 'package:holiday_id/holiday_id.dart';
 
+/// This package's main class. Use this class to get access to Indonesia's
+/// holiday data.
 class HolidayId {
   List<HolidayModel> getHolidays({
     int? filterYear,

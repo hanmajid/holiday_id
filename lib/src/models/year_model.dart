@@ -1,5 +1,9 @@
-import 'package:holiday_id/src/models/skb_model.dart';
+import 'package:holiday_id/holiday_id.dart';
 
+/// This class contains national holiday data of a single year.
+///
+/// Typically, you wouldn't use this class directly and only need to use
+/// [HolidayModel].
 class YearModel {
   final int year;
   final List<SkbModel> skbs;

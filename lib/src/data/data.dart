@@ -1,3 +1,3 @@
 export 'holiday_id_data.dart';
-export 'skb/skb.dart';
-export 'year/year.dart';
+export 'skbs/skbs.dart';
+export 'years/years.dart';
