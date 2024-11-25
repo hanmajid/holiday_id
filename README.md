@@ -34,6 +34,7 @@ All data are taken directly from Indonesia government's (Kementerian Koordinator
 
 * Year 2025 (letter signed on 14 October 2024)
 * Year 2024 (letter signed on 26 February 2024)
+* Year 2023 (letter signed on 29 March 2023)
 
 ## Issues
 

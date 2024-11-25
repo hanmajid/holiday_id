@@ -8,9 +8,11 @@ void main() {
       test('should return all holidays', () {
         var holidays = HolidayId().getHolidays();
 
+        var holidays2023 = yearData2023.skbs.last.holidays;
         var holidays2024 = yearData2024.skbs.last.holidays;
         var holidays2025 = yearData2025.skbs.last.holidays;
         var allHolidays = [
+          ...holidays2023,
           ...holidays2024,
           ...holidays2025,
         ];
@@ -22,6 +24,9 @@ void main() {
           filterType: HolidayType.holiday,
         );
 
+        var holidays2023 = yearData2023.skbs.last.holidays
+            .where((day) => day.type == HolidayType.holiday)
+            .toList();
         var holidays2024 = yearData2024.skbs.last.holidays
             .where((day) => day.type == HolidayType.holiday)
             .toList();
@@ -29,6 +34,7 @@ void main() {
             .where((day) => day.type == HolidayType.holiday)
             .toList();
         var allHolidays = [
+          ...holidays2023,
           ...holidays2024,
           ...holidays2025,
         ];
