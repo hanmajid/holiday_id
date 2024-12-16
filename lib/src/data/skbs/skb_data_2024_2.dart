@@ -27,6 +27,14 @@ var skbData2024_2 = SkbModel(
       date: DateTime(2024, 2, 10),
       type: HolidayType.holiday,
     ),
+    // title: Keputusan Presiden (Keppres) Nomor 10 Tahun 2024 tentang Hari
+    //   Pemungutan Suara Pemilihan Umum Tahun 2024 Sebagai Hari Libur Nasional
+    // url: https://peraturan.bpk.go.id/Details/277337/keppres-no-10-tahun-2024
+    HolidayModel(
+      name: 'Hari Pemungutan Suara Pemilihan Umum Tahun 2024',
+      date: DateTime(2024, 2, 14),
+      type: HolidayType.holiday,
+    ),
     HolidayModel(
       name: 'Hari Suci Nyepi (Tahun Baru Saka 1946)',
       date: DateTime(2024, 3, 11),
@@ -130,6 +138,18 @@ var skbData2024_2 = SkbModel(
     HolidayModel(
       name: 'Maulid Nabi Muhammad S.A.W',
       date: DateTime(2024, 9, 16),
+      type: HolidayType.holiday,
+    ),
+    // title: Keputusan Presiden (Keppres) Nomor 33 Tahun 2024 tentang Hari
+    //   Pemungutan Suara Pemilihan Gubernur dan Wakil Gubernur, Bupati dan
+    //  Wakil Bupati, serta Walikota dan Wakil Walikota Tahun 2024 sebagai
+    //  Hari Libur Nasional
+    // url: https://peraturan.bpk.go.id/Details/308159/keppres-no-33-tahun-2024
+    HolidayModel(
+      name:
+          // ignore: lines_longer_than_80_chars
+          'Hari Pemungutan Suara Pemilihan Gubernur dan Wakil Gubernur, Bupati dan Wakil Bupati, serta Walikota dan Wakil Walikota Tahun 2024',
+      date: DateTime(2024, 11, 27),
       type: HolidayType.holiday,
     ),
     HolidayModel(

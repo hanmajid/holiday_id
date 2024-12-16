@@ -14,28 +14,30 @@ void main() {
           .where((el) => el.type == HolidayType.collectiveLeave)
           .toList();
 
-      expect(holidays.length, 27);
-      expect(holidaysOnly.length, 17);
+      expect(holidays.length, 29);
+      expect(holidaysOnly.length, 19);
       expect(collectiveLeavesOnly.length, 10);
 
       var f = DateFormat.EEEE('en_us');
       expect(f.format(holidaysOnly[0].date), 'Monday');
       expect(f.format(holidaysOnly[1].date), 'Thursday');
       expect(f.format(holidaysOnly[2].date), 'Saturday');
-      expect(f.format(holidaysOnly[3].date), 'Monday');
-      expect(f.format(holidaysOnly[4].date), 'Friday');
-      expect(f.format(holidaysOnly[5].date), 'Sunday');
-      expect(f.format(holidaysOnly[6].date), 'Wednesday');
-      expect(f.format(holidaysOnly[7].date), 'Thursday');
-      expect(f.format(holidaysOnly[8].date), 'Wednesday');
-      expect(f.format(holidaysOnly[9].date), 'Thursday');
+      expect(f.format(holidaysOnly[3].date), 'Wednesday');
+      expect(f.format(holidaysOnly[4].date), 'Monday');
+      expect(f.format(holidaysOnly[5].date), 'Friday');
+      expect(f.format(holidaysOnly[6].date), 'Sunday');
+      expect(f.format(holidaysOnly[7].date), 'Wednesday');
+      expect(f.format(holidaysOnly[8].date), 'Thursday');
+      expect(f.format(holidaysOnly[9].date), 'Wednesday');
       expect(f.format(holidaysOnly[10].date), 'Thursday');
-      expect(f.format(holidaysOnly[11].date), 'Saturday');
-      expect(f.format(holidaysOnly[12].date), 'Monday');
-      expect(f.format(holidaysOnly[13].date), 'Sunday');
-      expect(f.format(holidaysOnly[14].date), 'Saturday');
-      expect(f.format(holidaysOnly[15].date), 'Monday');
-      expect(f.format(holidaysOnly[16].date), 'Wednesday');
+      expect(f.format(holidaysOnly[11].date), 'Thursday');
+      expect(f.format(holidaysOnly[12].date), 'Saturday');
+      expect(f.format(holidaysOnly[13].date), 'Monday');
+      expect(f.format(holidaysOnly[14].date), 'Sunday');
+      expect(f.format(holidaysOnly[15].date), 'Saturday');
+      expect(f.format(holidaysOnly[16].date), 'Monday');
+      expect(f.format(holidaysOnly[17].date), 'Wednesday');
+      expect(f.format(holidaysOnly[18].date), 'Wednesday');
 
       expect(f.format(collectiveLeavesOnly[0].date), 'Friday');
       expect(f.format(collectiveLeavesOnly[1].date), 'Tuesday');
