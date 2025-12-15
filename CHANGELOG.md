@@ -1,3 +1,7 @@
+## Unreleased
+### Added
+- Add 2026 holidays from SKB.
+
 ## 0.0.3
 ### Added
 * Add holidays from Keppres Nomor 10 Tahun 2024.

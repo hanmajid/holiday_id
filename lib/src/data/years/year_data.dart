@@ -1,5 +1,12 @@
 import 'package:holiday_id/holiday_id.dart';
 
+var yearData2026 = YearModel(
+  year: 2026,
+  skbs: [
+    skbData2026_1,
+  ],
+);
+
 var yearData2025 = YearModel(
   year: 2025,
   skbs: [
