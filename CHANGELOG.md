@@ -1,6 +1,7 @@
 ## Unreleased
 ### Added
 - Add 2026 holidays from SKB.
+- Add 2025 SKB 7 August 2025.
 
 ## 0.0.3
 ### Added

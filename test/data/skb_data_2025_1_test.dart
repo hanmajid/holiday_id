@@ -14,9 +14,9 @@ void main() {
           .where((el) => el.type == HolidayType.collectiveLeave)
           .toList();
 
-      expect(holidays.length, 27);
+      expect(holidays.length, 28);
       expect(holidaysOnly.length, 17);
-      expect(collectiveLeavesOnly.length, 10);
+      expect(collectiveLeavesOnly.length, 11);
 
       var f = DateFormat.EEEE('en_us');
       expect(f.format(holidaysOnly[0].date), 'Wednesday');
@@ -46,7 +46,8 @@ void main() {
       expect(f.format(collectiveLeavesOnly[6].date), 'Tuesday');
       expect(f.format(collectiveLeavesOnly[7].date), 'Friday');
       expect(f.format(collectiveLeavesOnly[8].date), 'Monday');
-      expect(f.format(collectiveLeavesOnly[9].date), 'Friday');
+      expect(f.format(collectiveLeavesOnly[9].date), 'Monday');
+      expect(f.format(collectiveLeavesOnly[10].date), 'Friday');
     });
     test('should have ascending ordered', () {
       SkbModel skbData2025 = skbData2025_1;

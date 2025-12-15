@@ -33,7 +33,7 @@ void main() {
 All data are taken directly from Indonesia government's (Kementerian Koordinator Bidang Pembangunan Manusia Dan Kebudayaan Republik Indonesia) official letters. The data includes:
 
 * Year 2026 (letter signed on 19 September 2025)
-* Year 2025 (letter signed on 14 October 2024)
+* Year 2025 (letter signed on 14 October 2024 + 1 additional SKB)
 * Year 2024 (letter signed on 26 February 2024 + 2 Keppres)
 * Year 2023 (letter signed on 29 March 2023)
 

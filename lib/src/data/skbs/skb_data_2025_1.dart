@@ -127,6 +127,15 @@ var skbData2025_1 = SkbModel(
       date: DateTime(2025, 8, 17),
       type: HolidayType.holiday,
     ),
+    // title: KEPUTUSAN BERSAMA MENTERI AGAMA, MENTERI KETENAGAKERJAAN, DAN
+    // MENTERI PENDAYAGUNAAN APARATUR NEGARA DAN REFORMASI BIROKRASI REPUBLIK
+    // INDONESIA
+    // url: https://peraturan.bpk.go.id/Details/308159/keppres-no-33-tahun-2024
+    HolidayModel(
+      name: 'Cuti Bersama Proklamasi Kemerdekaan',
+      date: DateTime(2025, 8, 18),
+      type: HolidayType.collectiveLeave,
+    ),
     HolidayModel(
       name: 'Maulid Nabi Muhammad S.A.W',
       date: DateTime(2025, 9, 5),
