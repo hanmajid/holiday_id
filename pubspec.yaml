@@ -1,6 +1,6 @@
 name: holiday_id
 description: "Flutter package that contains the information of Indonesia's national holidays and days-off"
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/hanmajid/holiday_id
 issue_tracker: https://github.com/hanmajid/holiday_id/issues
 repository: https://github.com/hanmajid/holiday_id
